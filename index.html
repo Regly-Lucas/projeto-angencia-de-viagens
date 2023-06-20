@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angência de Viagens</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-titulo">
+                <img class="logo" src="./src/img/local-logo.png" alt="local logo">
+                <h1>Agência de Viagens</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="aviao-titulo">
+                    <img src="./src/img/aviao.png" alt="logo aviao">
+                    <h2>Solicite um orçamento</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="formulario">
+                    <form method="post"
+                        action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+                        <h2>Informe seus dados</h2>
+                        <div class="label-input">
+                            <label for="nome">Nome</label>
+                            <input name="nome" id="nome" type="text" placeholder="Digite seu nome completo" required>
+                        </div>
+                        <div class="label-input">
+                            <label for="email">Email</label>
+                            <input name="email" id="email" type="email" placeholder="Email para contato" required>
+                        </div>
+                        <div class="label-input">
+                            <label for="celular">Celular</label>
+                            <input name="celular" id="celular" type="tel" placeholder="(xx) xxxxx-xxxx" required>
+                        </div>
+                        <div class="input-select">
+                            <div class="label-input select-inputs">
+                                <label>Data da ida</label>
+                                <input type="date" name="data-ida" required>
+                            </div>
+                            <div class="label-input select-inputs">
+                                <label for="data">Data da Volta</label>
+                                <input type="date" required>
+                            </div>
+                        </div>
+                        <div class="input-select">
+                            <div class="label-input select-inputs">
+                                <label>Origem</label>
+                                <select name="partindo-de" required>
+                                    <option value="">Partindo de</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PI">Píaui</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </div>
+                            <div class="label-input select-inputs">
+                                <label for="data">Destino</label>
+                                <select name="indo-para" required>
+                                    <option value="">Indo para</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PI">Píaui</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="span-label-radio">
+                            <span>Quarto com cama infantil?</span>
+                            <div class="sim-nao">
+                                <div class="label-radio">
+                                    <input type="radio" name="quarto-infantil" value="sim">
+                                    <label>Sim</label>
+                                </div>
+                                <div class="label-radio">
+                                    <input type="radio" name="quarto-infantil" value="nao">
+                                    <label>Não</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span-label-checkbox">
+                            <span>Preferências da hospedagem</span>
+                            <div class="opcoes-checkbox">
+                                <div class="checkbox-label">
+                                    <input type="checkbox">
+                                    <label>Piscina</label>
+                                </div>
+
+                                <div class="checkbox-label">
+                                    <input type="checkbox">
+                                    <label>WiFi</label>
+                                </div>
+
+                                <div class="checkbox-label">
+                                    <input type="checkbox">
+                                    <label>Garagem</label>
+                                </div>
+
+                                <div class="checkbox-label">
+                                    <input type="checkbox">
+                                    <label>Suite</label>
+                                </div>
+                            </div>
+                            <button class="botao" type="submit">Solicitar orçamento</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="ofertas">
+            <div class="container">
+                <div class="titulo-paragrafo">
+                    <h3>Ofertas</h3>
+                    <p>Com até <strong>50%</strong> de desconto. </p>
+                </div>
+                <div class="galeria-ofertas">
+                    <div class="cristo">
+                        <img src="./src/img/rio.jpg" alt="Cristo Redentor">
+                    </div>
+                    <div class="mmrs">
+                        <div class="manaus">
+                            <img src="./src/img/manaus.jpg" alt="Manaus">
+                        </div>
+                        <div class="sao-paulo">
+                            <img src="./src/img/saopaulo.jpg" alt="Sao Paulo">
+                        </div>
+                        <div class="niteroi">
+                            <img src="./src/img/niteroi.jpg" alt="Niteroi">
+                        </div>
+                        <div class="maranhao">
+                            <img src="./src/img/maranhao.jpg" alt="Maranhao">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="explore-natureza">
+            <div class="container">
+                <div class="titulo-paragrafo">
+                    <h3>Explore a natureza</h3>
+                    <p>Viaje conosco e veja o melhor que a natureza tem a oferecer.</p>
+                </div>
+                <div class="galeria-explore">
+                    <div class="container-lencois">
+                        <img src="./src/img/lencol.jpg" alt="lencol maranhense">
+                        <div class="titulo-paragrafo">
+                            <h4>Lençois Maranhenses, Brasil</h4>
+                            <span>Ida e volta <br> a partir de R$79</span>
+                        </div>
+                    </div>
+                    <div class="container-cachoeira">
+                        <img src="./src/img/goias.jpg" alt="goias">
+                        <div class="titulo-paragrafo">
+                            <h4>Cachoeira Santa Bárbara, Brasil</h4>
+                            <span>Ida e volta <br> por R$139</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="rodape">
+            <div class="container">
+                <div class="contato">
+                    <h5>Contato</h5>
+                    <div class="icone-span">
+                        <img src="./src/img/local.png" alt="local">
+                        <span>Rio de Janeiro,RJ</span>
+                    </div>
+                    <div class="icone-span">
+                        <img src="./src/img/telefone.png" alt="telefone">
+                        <span>Telefone: (21) 9999-9999</span>
+                    </div>
+                    <div class="icone-span">
+                        <img src="./src/img/email.png" alt="email">
+                        <span>Email: contato@agencia.com.br</span>
+                    </div>
+                </div>
+                <div class="redes-sociais">
+                    <h5>Nossas Redes Sociais</h5>
+                    <div class="icone-span">
+                        <img src="./src/img/fb.png" alt="facebook logo">
+                        <span>/AgenciaDeViagem</span>
+                    </div>
+                    <div class="icone-span">
+                        <img src="./src/img/ig.png" alt="instagram logo">
+                        <span>@AgenciaDeViagem</span>
+                    </div>
+                    <div class="icone-span">
+                        <img src="./src/img/tt.png" alt="twitter logo">
+                        <span>@AgenciaDeViagem</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

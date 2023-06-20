@@ -1,0 +1,80 @@
+@media(max-width: 982px) {
+    .galeria-ofertas {
+        flex-wrap: wrap;
+    }
+    .formulario,
+    .aviao-titulo{
+        margin:0 30px ;
+      }
+    .galeria-ofertas .cristo,
+    .mmrs .sao-paulo,
+    .mmrs .maranhao,
+    .mmrs .niteroi,
+    .mmrs .manaus {
+        width: 100vw;
+        height: 300px;
+    }
+
+    .galeria-ofertas .cristo img,
+    .mmrs .sao-paulo img,
+    .galeria-ofertas .maranhao img,
+    .galeria-ofertas .niteroi img,
+    .galeria-ofertas .manaus img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .galeria-ofertas .mmrs {
+        width: 100%;
+    }
+
+    .ofertas .container {
+        width: 70%;
+    }
+
+    .galeria-explore {
+        flex-wrap: wrap;
+    }
+
+    .galeria-explore .container-lencois,
+    .galeria-explore .container-cachoeira {
+        margin: 0 auto;
+        height: auto;
+        text-align: left;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .explore-natureza .container .titulo-paragrafo {
+        margin: 50px auto;
+        width: 200px;
+    }
+
+    .rodape .container {
+        flex-wrap: wrap;
+    }
+ 
+
+@media (max-width: 534px) {
+    .rodape {
+        height: 350px;
+    }
+
+    .rodape .container {
+        width: 200px;
+        gap: 20px;
+    }
+  .botao{
+    width: 100%;
+  }
+ 
+}
+@media (max-width: 432px){
+    .logo{
+        display: none;
+    }
+    .ofertas{
+        margin:40px auto;
+    }
+}

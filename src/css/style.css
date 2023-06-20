@@ -1,0 +1,306 @@
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+.logo-titulo img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.logo-titulo h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #5d15d1;
+}
+
+.banner {
+    width: 100%;
+    background-image: url('../img/bahia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    padding-top: 60px;
+    height: auto;
+}
+
+.banner img {
+    width: 20px;
+    transform: rotate(-45deg);
+}
+
+.aviao-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #5d15d1;
+    padding: 6px 0;
+}
+
+.banner form h2 {
+    color: #000000;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    color: #fff;
+    font-size: 15px
+}
+
+.banner form {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 30px 25px 20px;
+}
+
+input,
+select {
+    width: 100%;
+}
+
+.label-input input {
+    margin: 10px 0;
+    padding: 7px 5px;
+}
+
+.label-input label {
+    font-weight: 500;
+}
+
+.input-select {
+    display: flex;
+    gap: 15px;
+}
+
+.select-inputs {
+    width: 50%;
+}
+
+select {
+    margin-top: 10px;
+    padding: 8px 0;
+}
+
+.span-label-radio {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.label-radio input {
+    width: 10px;
+}
+
+.label-radio {
+    gap: 8px;
+    display: flex;
+}
+
+.sim-nao {
+    display: flex;
+    width: 100%;
+    gap: 90px;
+}
+
+.checkbox-label {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.opcoes-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 60px 0 0;
+}
+
+.botao {
+    background-color: #5d15d1;
+    color: #fff;
+    margin: 20px 0;
+    font-size: 14px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.galeria-ofertas {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.cristo {
+    width: 50%;
+    position: relative;
+}
+.cristo img{
+    width: 100%;
+    height: 350px;
+}
+.manaus,
+.sao-paulo,
+.maranhao,
+.niteroi{
+    width:230px;
+    height: 170px;
+    position: relative;
+    }
+.manaus img,
+.sao-paulo img,
+.maranhao img,
+.niteroi img{
+width: 100%;
+height: 100%;
+}
+.mmrs {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    }
+.cristo::before{
+    content:'Rio de Janeiro';
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    color:white;
+    background-color: #000000;
+    opacity: 0.7;
+    width:auto;
+    min-width: 98%;
+    padding: 5px;
+}
+.sao-paulo::before{
+    content:'São Paulo';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color:white;
+    background-color: #000000;
+    opacity: 0.7;
+    width: 95%;
+    padding: 5px; 
+}
+.niteroi::before{
+    content:'Niterói';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color:white;
+    background-color: #000000;
+    opacity: 0.7;
+    width: 95%;
+    padding: 5px; 
+}
+.manaus::before{
+    content:'Manaus';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color:white;
+    background-color: #000000;
+    opacity: 0.7;
+    width: 95%;
+    padding: 5px; 
+}
+.maranhao::before{
+    content:'Maranhão';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color:white;
+    background-color: #000000;
+    opacity: 0.7;
+    width: 95%;
+    padding: 5px; 
+}
+.titulo-paragrafo p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.titulo-paragrafo{
+    margin: 20px 0;
+}
+.galeria-explore{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+   }
+.container-lencois,
+.container-cachoeira{
+    width: 50%;
+    height:auto;
+    background-color: #fff;
+    text-align: center;
+}
+.container-lencois img,
+.container-cachoeira img{
+    width: 100%;
+}
+.galeria-explore .titulo-paragrafo{
+    margin: 15px 0 0 15px;
+}
+.galeria-explore .titulo-paragrafo h4{
+    margin-bottom: 5px;
+}
+.galeria-explore .titulo-paragrafo span{
+    color: #858484;
+}
+.rodape{
+    background-color: #5d15d1;
+    min-height: 200px;
+    max-height: 400px;
+    margin-top: 40px;
+    padding: 30px 0;
+}
+.icone-span{
+    display: flex;
+    gap: 5px;
+}
+.icone-span img{
+    width: 20px;
+}
+.icone-span span{
+    color: #fff;
+    font-size: 14px;
+}
+h5{
+    color:#fff;
+    font-size: 20px;
+}
+.contato,
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 150px;
+    justify-content: space-evenly;
+   }
+.rodape .container{
+    display: flex;
+    justify-content: space-between;
+}
